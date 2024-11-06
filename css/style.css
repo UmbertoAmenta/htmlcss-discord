@@ -49,6 +49,11 @@ li a {
     color: white;
 }
 
+.btn.btn-special {
+    background-color: #8ea1e1;
+    color: white;
+}
+
 
 /*-----------
     TYPOGRAPHY
@@ -61,11 +66,26 @@ body {
     line-height: 1.5;
 }
 
-h1 {
+h1,h2,h3 {
     font-family: "Roboto", serif;
     font-weight: 700;
     font-style: normal;
+}
+
+h1 {
     font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    line-height: 1.3;
 }
 
 header, footer {
@@ -149,32 +169,32 @@ nav > ul {
 .s-big, .s-small {
     min-height: 500px;
     margin: 50px 0;
-    border: 1px dashed;
 }
+
 .s-big {
-    background-color: #1e90ff;
-    width: 60%;
+    width: 50%;
 }
 
 .s-small {
-    background-color: #ffc0cb;
-    width: 40%;
+    width: 50%;
+    padding: 30px 150px;
 }
 
 .s-bigger {
-    background-color: #228b22;
     min-height: 900px;
-    width: 100%;
-    margin: 50px 0;
-    border: 1px dashed;
+    width: 80%;
+    margin: 50px auto;
+    padding: 0 80px;
+    text-align: center;
 }
 
 main section {
     display: flex;
+    align-items: center;
 }
 
 main > :nth-child(even) {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 
